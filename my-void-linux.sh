@@ -1,6 +1,6 @@
 # What is it?
 # This is a script for installing starter packages via XBPS for my use on void linux.
-# WARNING: your "linux void" may require different packages and configuration depending on your hardware and usage preferences. 
+# WARNING: your "linux void" may require different packages and configuration depending on your hardware and usage preferences.
 
 # My hardware:
 # CPU:          AMD Ryzen 5 5600X
@@ -12,32 +12,31 @@
 
 # void linux
 
-sudo xbps-install linux-firmware-amd xorg vulkan-loader mesa-vulkan-radeon amdvlk mesa-vaapi mesa-vdpau xinit xtools base-devel
+xbps-install linux-firmware-amd xorg vulkan-loader mesa-vulkan-radeon amdvlk mesa-vaapi mesa-vdpau xinit xtools base-devel
 
 # KDE
-
-sudo xbps-install kde5 kde5-baseapps
+xbps-install kde5 kde5-baseapps
 
 # utilities
 
-sudo xbps-install curl nano zsh git
+xbps-install curl nano zsh git
 
 # fun
 
-sudo xbps-install neofetch cmatrix cowsay
+xbps-install neofetch cmatrix cowsay
 
 # fonts
 
-sudo xbps-install font-firacode
+xbps-install font-firacode
 
 # monitoring
 
-sudo xbps-install htop
+xbps-install htop
 
 # internet
 
-sudo xbps-install firefox
+xbps-install firefox
 
 # audio
 
-sudo xbps-install pulseaudio
+xbps-install pulseaudio
