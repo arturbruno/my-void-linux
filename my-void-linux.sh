@@ -12,31 +12,11 @@
 
 # void linux
 
-xbps-install linux-firmware-amd xorg vulkan-loader mesa-vulkan-radeon amdvlk mesa-vaapi mesa-vdpau xinit xtools base-devel
-
-# KDE
-xbps-install kde5 kde5-baseapps
-
-# utilities
-
-xbps-install curl nano zsh git
-
-# fun
-
-xbps-install neofetch cmatrix cowsay
-
-# fonts
-
-xbps-install font-firacode
-
-# monitoring
-
-xbps-install htop
-
-# internet
-
-xbps-install firefox
-
-# audio
-
-xbps-install pulseaudio
+xbps-install linux-firmware-amd xorg vulkan-loader mesa-vulkan-radeon amdvlk mesa-vaapi mesa-vdpau xinit xtools base-devel \
+kde5 kde5-baseapps gwenview \
+curl nano zsh git flameshot vokoscreen vlc \
+neofetch cmatrix \
+font-firacode noto-fonts-emoji \
+htop \
+firefox \
+pulseaudio
