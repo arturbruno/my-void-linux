@@ -14,7 +14,7 @@
 
 xbps-install linux-firmware-amd xorg vulkan-loader mesa-vulkan-radeon amdvlk mesa-vaapi mesa-vdpau xinit xtools base-devel \
 kde5 kde5-baseapps gwenview \
-curl nano zsh git flameshot vokoscreen vlc \
+curl nano zsh git flameshot vokoscreen vlc dbeaver \
 neofetch cmatrix \
 font-firacode noto-fonts-emoji \
 htop \
