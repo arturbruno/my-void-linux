@@ -461,7 +461,13 @@ xbps_install_su(){
 xbps_install(){
   xbps-install \
   htop \
+  git \
   neofetch
+}
+
+git_config(){
+    git config --global user.email "arturbdsg@gmail.com"
+    git config --global user.name "Artur Bruno"
 }
 
 main() {
@@ -512,6 +518,7 @@ EOF
 
   xbps_install_su
   xbps_install
+  git_config
   setup_ohmyzsh
   setup_zshrc
   setup_shell
