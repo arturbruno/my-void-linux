@@ -19,7 +19,7 @@ neofetch cmatrix \
 font-firacode noto-fonts-emoji wqy-microhei \
 htop \
 firefox \
-pulseaudio vlc obs vokoscreen \
+pulseaudio vlc vokoscreen \
 gimp inkscape \
 okular \
 vagrant filezilla gparted \
