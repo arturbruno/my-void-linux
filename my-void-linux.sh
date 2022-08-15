@@ -19,10 +19,15 @@ neofetch cmatrix \
 font-firacode noto-fonts-emoji wqy-microhei \
 htop \
 firefox \
-pulseaudio vlc vokoscreen \
+pulseaudio vlc obs vokoscreen \
 gimp inkscape \
 okular \
 vagrant filezilla gparted \
 libreoffice-calc vscode \
 VeraCrypt keepassxc \
 ntfs-3g
+
+# git config
+
+git config --global user.email "arturbdsg@gmail.com"
+git config --global user.name "Artur Bruno"
