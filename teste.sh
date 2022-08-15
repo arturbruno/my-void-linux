@@ -460,8 +460,8 @@ xbps_install_su(){
 
 xbps_install(){
   xbps-install \
-  okular \
-  keepassxc
+  htop \
+  neofetch
 }
 
 main() {
