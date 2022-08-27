@@ -469,7 +469,7 @@ xbps_install(){
     pulseaudio vlc obs vokoscreen \
     gimp inkscape \
     okular \
-    vagrant filezilla gparted \
+    vagrant filezilla gparted qbittorrent hardinfo \
     libreoffice-calc vscode \
     VeraCrypt keepassxc \
     ntfs-3g
